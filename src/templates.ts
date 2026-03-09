@@ -1,4 +1,4 @@
-import { ProjectConfig, TemplateFile } from "./types";
+import { ProjectConfig, TemplateFile } from "./types.js";
 
 // ─── React Templates ───────────────────────────────────────────────
 

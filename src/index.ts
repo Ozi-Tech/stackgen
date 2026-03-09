@@ -2,9 +2,9 @@
 
 import { Command } from "commander";
 import chalk from "chalk";
-import { promptUser } from "./prompts";
-import { generateTemplates } from "./templates";
-import { writeFiles, initGitRepo, createProjectDir } from "./generator";
+import { promptUser } from "./prompts.js";
+import { generateTemplates } from "./templates.js";
+import { writeFiles, initGitRepo, createProjectDir } from "./generator.js";
 
 const program = new Command();
 

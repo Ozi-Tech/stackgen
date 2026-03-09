@@ -1,6 +1,7 @@
 {
   "name": "@ozi-tech/stackgen",
   "version": "1.0.0",
+  "type": "module",
   "description": "Interactive CLI tool to scaffold full-stack project boilerplates",
   "main": "dist/index.js",
   "bin": {

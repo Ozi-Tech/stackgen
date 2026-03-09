@@ -1,5 +1,5 @@
 import inquirer from "inquirer";
-import { ProjectConfig } from "./types";
+import { ProjectConfig } from "./types.js";
 
 export async function promptUser(): Promise<ProjectConfig> {
   const answers = await inquirer.prompt([

@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 import { execSync } from "child_process";
-import { ProjectConfig, TemplateFile } from "./types";
+import { ProjectConfig, TemplateFile } from "./types.js";
 
 export function writeFiles(projectDir: string, files: TemplateFile[]): void {
   for (const file of files) {
